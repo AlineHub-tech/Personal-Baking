@@ -1,0 +1,5 @@
+footer{background:#535151; color:#bbb; padding:20px; text-align:center; margin-top:38%;}
+    footer a{color:#f39c12; text-decoration:none;}
+    footer .social{margin-top:10px;}
+    footer .social i{margin:0 8px; cursor:pointer; transition:0.3s;}
+    footer .social i:hover{color:#fff;}

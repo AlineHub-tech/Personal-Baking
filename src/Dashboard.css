@@ -1,0 +1,108 @@
+.dashboard-container {
+  padding: 20px;
+}
+
+.dashboard-container h2 {
+  color: #1a73e8;
+  margin-bottom: 5px;
+}
+
+.dashboard-sub {
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.dashboard-cards {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.card {
+  background: #fff;
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  flex: 1 1 300px;
+}
+
+.balance-card h3 {
+  margin-bottom: 10px;
+}
+
+.balance-card .balance {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.stat-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stat-item span {
+  font-weight: 500;
+  margin-top: 5px;
+}
+
+.quick-links-card .links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.transactions-card table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.transactions-card th, .transactions-card td {
+  text-align: left;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.transactions-card .deposit {
+  color: green;
+  font-weight: 600;
+}
+
+.transactions-card .withdraw {
+  color: red;
+  font-weight: 600;
+}
+
+/* Buttons */
+.btn {
+  padding: 8px 14px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn.primary {
+  background-color: #1a73e8;
+  color: #fff;
+}
+
+.btn.secondary {
+  background-color: #f1f3f4;
+  color: #333;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .dashboard-cards {
+    flex-direction: column;
+  }
+}

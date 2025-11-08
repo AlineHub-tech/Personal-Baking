@@ -1,0 +1,72 @@
+.settings-page, .profile-page {
+  padding: 20px;
+  max-width: 700px;
+  margin: auto;
+  background: var(--card-bg, #fff);
+  border-radius: 16px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.settings-section, .profile-section {
+  margin-bottom: 20px;
+}
+
+.setting-item, .profile-section {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.settings-page h2, .profile-page h2 {
+  margin-bottom: 10px;
+}
+
+.settings-page h4 {
+  margin-bottom: 8px;
+  color: var(--text-muted);
+}
+
+input, select, textarea {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  font-size: 15px;
+}
+
+.profile-card {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.profile-header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.profile-avatar {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 2px solid var(--accent, #007bff);
+}
+
+.btn.primary {
+  background: var(--accent, #007bff);
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btn.primary:hover {
+  opacity: 0.9;
+}
+
+@media (max-width: 768px) {
+  .settings-page, .profile-page {
+    padding: 15px;
+  }
+}
