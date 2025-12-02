@@ -103,6 +103,6 @@
 /* Responsive */
 @media (max-width: 900px) {
   .dashboard-cards {
-    flex-direction: column;
+    flex-direction: row;
   }
 }
