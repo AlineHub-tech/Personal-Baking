@@ -1,6 +1,5 @@
 Features Banking 🏦
 
-
 Personal Banking is an application that allows you to manage your bank accounts,
  perform transactions, view statements, and store your financial data securely.
 
